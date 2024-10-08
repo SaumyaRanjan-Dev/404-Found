@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h2>Signup Up</h2>
+      <div class="signup-container">
+        <p>Already have an account? <a href="/01_login.html">Log in</a></p>
+
+        <div class="oauth-btn oauth-google">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1920px-Google_2015_logo.svg.png"
+            alt="Google Logo"
+          />
+          <span>Google</span>
+        </div>
+
+        <div class="oauth-btn oauth-facebook">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+            alt="Facebook Logo"
+          />
+          <span>Facebook</span>
+        </div>
+
+        <div class="oauth-btn oauth-github">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+            alt="GitHub Logo"
+          />
+          <span>GitHub</span>
+        </div>
+
+        <p>OR</p>
+      </div>
+
+      <form action="">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+        <input
+          type="text"
+          name="firstName"
+          id="firstName"
+          placeholder="First Name"
+          required
+        />
+        <input
+          type="text"
+          name="lastName"
+          id="lastName"
+          placeholder="Last Name"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Your Password"
+          required
+        />
+        <input
+          type="password"
+          name="confirmPassword"
+          id="confirmPassword"
+          placeholder="Confirm Your Password"
+          required
+        />
+
+        <button type="submit">Sign Up</button>
+
+        <p>
+          By signing up you agree to our <a href="#">Terms of Service</a> and
+          <a href="#">Privacy Policy</a>.
+        </p>
+
+        <label>
+          <input type="checkbox" name="subscribe" />
+          Email me with news and updates
+        </label>
+      </form>
+    </div>
+  </body>
+</html>

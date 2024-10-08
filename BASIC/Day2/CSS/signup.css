@@ -1,0 +1,150 @@
+body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: #282a35;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    font-size: 16px;
+  }
+  
+  input:hover {
+    background-color: #e8e8e8;
+  }
+  
+  button {
+    margin-bottom: 15px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #04aa04;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #028a02;
+  }
+  
+  h5 {
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .signup-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .oauth-btn {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    background-color: #fff;
+  }
+  
+  .oauth-btn img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  .oauth-btn span {
+    vertical-align: middle;
+  }
+  
+  .oauth-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .oauth-google {
+    background-color: #ffffff;
+    color: #444;
+  }
+  
+  .oauth-facebook {
+    background-color: #4267B2;
+    color: white;
+  }
+  
+  .oauth-github {
+    background-color: #333;
+    color: white;
+  }
+  
+  .oauth-btn img {
+    vertical-align: middle;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  .login-link {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
