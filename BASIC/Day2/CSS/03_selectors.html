@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /*Type selector*/
+      p {
+        font-size: 16px;
+        margin: 20px 20px 10px 20px; /*top left right bottom*/
+        padding: 1px 2px;
+      }
+
+      /*Class Selctor*/
+      .highlight {
+        background-color: #21a2c9;
+      }
+
+      /*ID SELECTOR*/
+      #header {
+        background-color: #460ad3;
+      }
+
+      /*Attribute selector*/
+      input[type="text"] {
+        border: 2px dashed #460ad3;
+      }
+      /*Descendent Selector*/
+      article p {
+        font-style: italic;
+        padding: 10px;
+        background-color: #460ad3;
+        color: #ffff;
+      }
+      /*Child Selector*/
+      div > p {
+        background-color: orange;
+      }
+      /*Adjacent Sibiling Selector*/
+      h1 + p {
+        font-weight: bold;
+      }
+      /*General Sibling Selector*/
+      h2 ~ p {
+        color: red;
+      }
+
+      /*Pseudo-Class Selctor*/
+      a:hover {
+        background-color: green;
+        text-decoration: none;
+        color: #1a1a1a;
+        padding: 5px;
+        margin: 4px;
+      }
+      /*Pseudo-element Selctor*/
+      p::first-letter {
+        font-weight: bold;
+        font-size: 30px;
+      }
+      /*Grouping selectors*/
+      h1,
+      h2,
+      h3 {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">This is a header</header>
+    <h1>Main Heading</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quia
+      totam sequi, voluptas illum esse asperiores obcaecati explicabo non
+      voluptate similique fugit, adipisci blanditiis. Aliquid quasi velit
+      corporis nam culpa.
+    </p>
+    <p class="highlight">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga dolor
+      accusantium quam beatae placeat cum et cupiditate nemo tempora voluptas
+      perspiciatis facere corrupti aut nobis ipsum enim iure, libero corporis.
+    </p>
+    <input type="text" placeholder="enter the text here" />
+    <article>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+        similique placeat nulla quasi fugit esse excepturi dicta voluptatum!
+        Praesentium labore error impedit inventore odit. Unde doloremque ipsam
+        perferendis sapiente iste!
+      </p>
+    </article>
+    <div>
+      <ul>
+        <li>Direct Child List Item</li>
+        <li>Another Direct Child List Item</li>
+        <ul>
+          <li>This is not a direct child list of the first list ul</li>
+        </ul>
+      </ul>
+    </div>
+    <h2>Sub Heading</h2>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat impedit
+      unde sapiente voluptas, fugit ab in molestiae libero laborum blanditiis
+      asperiores excepturi veritatis sequi temporibus totam obcaecati soluta
+      natus atque.
+    </p>
+    <a href="#"
+      >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae esse
+      maxime veniam non deserunt repellendus alias earum! Laborum provident
+      alias nobis exercitationem expedita at! Exercitationem dignissimos
+      voluptatum libero quam ratione!</a
+    >
+    <h3>Haeding 3</h3>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto numquam
+      tempora a libero, voluptas suscipit omnis repudiandae quidem doloribus sit
+      consequuntur eum alias voluptatibus autem voluptates rem ea sint.
+      Molestias?
+    </p>
+  </body>
+</html>
